@@ -15,6 +15,7 @@ using namespace std;
 // compiler processes the .cpp file from top to bottom
 int square(int);
 
+
 // function header
 int main() {
 	int a = 2;
@@ -22,7 +23,8 @@ int main() {
 	cout << a << " " << square(a) << endl;
 	cout << implement_budget_cut(60000, 1500);
 	cout << endl;
-	cout << sizeof(short) << endl;
+
+	// cout << sizeof(short) << endl;
 	cout << compare(2, 5) << endl;
 	return 0;
 }
