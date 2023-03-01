@@ -1,0 +1,20 @@
+5 6
+
+1 2 3 4 5
+
+1 2
+1 3
+3 4
+4 2
+5 3
+5 4
+
+5
+
+# FORMAT
+# n m - number of nodes and edges
+# list of all n node labels (integers)
+# m lines, each giving an edge (u,v)
+# finally, a line with a node s
+# the point being to find all nodes 
+# that can be reached from s
