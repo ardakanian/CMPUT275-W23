@@ -1,3 +1,10 @@
+/*
+    An illustration of 3 types of memory leaks
+
+    Course: CMPUT 275
+    Omid Ardakanian, University of Alberta (2023)
+*/
+
 #include <iostream>
 using std::cout; 
 using std::endl;
