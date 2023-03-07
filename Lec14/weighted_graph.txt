@@ -1,0 +1,18 @@
+3 5
+
+1 4 17
+
+1 4 15
+1 4 12
+1 17 22
+4 17 9
+17 4 1
+
+1 17
+
+# FORMAT
+# n m - number of nodes and edges
+# list of all n node labels (integers)
+# m lines, each giving an edge u,v,w where u,v are nodes and w >= 0 is the weight
+# finally, a line with two nodes s,t,
+# the point being to find a path from s to t
