@@ -1,0 +1,11 @@
+3 3
+1 2 3
+1 2 10
+2 3 11
+1 3 7
+
+
+FORMAT
+1st line: n m (# nodes, # edges)
+2nd line: the node labels
+remaining m lines: edges in the form (u, v, cost)
