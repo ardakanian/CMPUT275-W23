@@ -25,15 +25,12 @@ void bsearch(vector<int>& sorted_array, int q) {
 }
 
 int main() {
-	int count, temp, query;
+	int count, query;
 	cin >> count;
 
-	vector<int> sorted_array;
-
-	for (int i=0;i<count;++i) {
-		cin >> temp;
-		sorted_array.push_back(temp);
-	}
+	vector<int> sorted_array(count);
+	for (int& i : sorted_array)
+		cin >> i;
 
 	// sort integers in non-descending order
 	sort(sorted_array.begin(), sorted_array.end());
