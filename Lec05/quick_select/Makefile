@@ -1,5 +1,5 @@
 CC = g++
-CFLAGS = -std=c++11 -Wall -O2 # use C++ 11 and include all warnings when compiling
+CFLAGS = -std=c++11 -Wall -g # use C++11 and include all warnings when compiling
 PROJECT = quick_select
 OBJS = quick_select_test.o quick_select.o
 
